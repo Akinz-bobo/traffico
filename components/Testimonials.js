@@ -15,7 +15,7 @@ const Testimonials = ({ testimonialData }) => {
           variants={staggerTextContianer}
           initial="initial"
           whileInView={"animate"}
-          onViewportEnter={() => ({ once: false, amount: 0.6 })}
+          onViewportEnter={() => ({ once: false, amount: 0.4 })}
           className="flex flex-col lg:flex-row"
         >
           {/* text */}

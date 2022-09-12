@@ -9,7 +9,7 @@ import "swiper/css";
 const Slider = ({ clients }) => {
   return (
     <Swiper
-      slidesPerView={3}
+      slidesPerView={4}
       spaceBetween={20}
       slidesOffsetBefore={60}
       grabCursor={true}
@@ -25,7 +25,7 @@ const Slider = ({ clients }) => {
               <p className="font-light leading-[30px]">{message}</p>
               {/* name & image */}
               <div className="flex items-center gap-x-5">
-                <Image src={image} width={60} height={60} alt=""/>
+                <Image src={image} width={60} height={60} alt="" />
                 <span className="font-semibold"> {name}</span>
               </div>
             </div>

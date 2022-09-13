@@ -9,7 +9,17 @@ import "swiper/css";
 const Slider = ({ clients }) => {
   return (
     <Swiper
-      slidesPerView={4}
+      breakpoints={{
+        268: {
+          width: 345,
+          slidesPerView: 1,
+          spaceBetween: 10,
+          slidesOffsetBefore: 30,
+        },
+        964: {
+          slidesPerView: 3,
+        },
+      }}
       spaceBetween={20}
       slidesOffsetBefore={60}
       grabCursor={true}

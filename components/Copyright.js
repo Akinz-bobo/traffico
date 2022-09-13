@@ -15,8 +15,8 @@ const Copyright = () => {
       whileInView={"animate"}
       className="bg-white h-[140px]"
     >
-      <div className="container mx-auto">
-        <div className="flex justify-between items-center h-[140px] lg:pr-24 ">
+      <div className="container mx-auto mt-3">
+        <div className="flex flex-col gap-y-4 lg:gap-y-0 lg:flex-row items-center h-[140px] lg:pr-24 ">
           {/* copy text */}
           <p>Copyright &copy; 2022 by Akinola</p>
           {/* social icons */}
